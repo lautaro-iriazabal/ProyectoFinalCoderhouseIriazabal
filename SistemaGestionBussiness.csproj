@@ -45,9 +45,20 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsuarioBussiness.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaGestionData\SistemaGestionData.csproj">
+      <Project>{d07cfb4f-fb64-4469-8498-7802057584ed}</Project>
+      <Name>SistemaGestionData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SIstemaGestionEntities\SistemaGestionEntities.csproj">
+      <Project>{2590d09c-b6ca-43d9-b9af-a317f9352435}</Project>
+      <Name>SistemaGestionEntities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
