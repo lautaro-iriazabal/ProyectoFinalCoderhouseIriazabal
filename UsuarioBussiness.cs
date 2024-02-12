@@ -1,9 +1,10 @@
-﻿using System;
+﻿using SistemaGestionData;
+using SistemaGestionEntities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ProyectoFinalCoderhouseIriazabal;
 
 namespace ProyectoFinalCoderhouseIriazabal
 {
