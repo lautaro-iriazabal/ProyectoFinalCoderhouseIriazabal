@@ -11,7 +11,7 @@ namespace ProyectoFinalCoderhouseIriazabal
 {
     public static class ProductoVendidoBussiness
     {
-        public static List<ProductoVendido> GetProductosVendidos()
+        public static List<ProductoVendido> ObtenerProductosVendidos()
         {
             return ProductoVendidoData.ObtenerProductoVendido();
         }
